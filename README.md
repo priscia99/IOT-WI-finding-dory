@@ -9,9 +9,14 @@ After reconstructing the entire fingerprint dataset, it was necessary to find a 
 
 This model, implemented within a **Python** script, exploits the **Euclidean Distance** to find the final coordinates $(X,Y)$ of Dory.
 
-## Contents
+## 📚 Contents
 This repository contains the following files:
-- input.txt (created manually after cleaning fragments), containing all fragments obtained via CoAP and MQTT and given as input to the Python script that computes odd positions and Dory’s estimate position
-- output.txt (obtained with Python), containing the whole dataset (even and odd positions), which is the matrix used by the Python script in order to compute Dory’s position
-- parser.py, the Python script file that we created to compute Dory's position
-- Report file, explaining project development steps, the algorithm and additional assumptions
+- [input.txt](https://github.com/priscia99/IOT-WI-finding-dory/blob/main/input.txt) (created manually after cleaning fragments), containing all fragments obtained via CoAP and MQTT and given as input to the Python script that computes odd positions and Dory’s estimate position
+- [output.txt](https://github.com/priscia99/IOT-WI-finding-dory/blob/main/output.txt) (obtained with Python), containing the whole dataset (even and odd positions), which is the matrix used by the Python script to compute Dory’s position
+- [parser.py](https://github.com/priscia99/IOT-WI-finding-dory/blob/main/parser.py), the Python script file that we created to compute Dory's position
+- [Report file](https://github.com/priscia99/IOT-WI-finding-dory/blob/main/IoT_WI_Finding_Dory_Report.pdf), explaining project development steps, the algorithm, and additional assumptions
+
+## 👨🏼‍💻 Contributors
+- **Andrea Prisciantelli** ([@priscia99](https://github.com/priscia99))
+- **Riccardo Reggiani** ([@riccardoreggiani](https://github.com/riccardoreggiani))
+  
